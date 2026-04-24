@@ -1,147 +1,159 @@
-# 📦 Sistema de Inventario - Java Desktop
+<!-- ===================== -->
 
-Aplicación de escritorio desarrollada en Java con Swing para la gestión de inventario, ventas y control de productos en pequeños negocios.
+<!-- BANNER -->
+
+<!-- ===================== -->
+
+<p align="center">
+
+<img width="2816" height="1536" alt="SISTEMA DE INVENTARIO - JAVA DESKTOP" src="https://github.com/user-attachments/assets/dcfe0611-1d38-4ad4-9596-625f0bd428b6" />
+  
+</p>
+
+<h1 align="center">📦 Sistema de Inventario 📦</h1>
+<h1 align="center">- JAVA DESKTOP -</h1>
+
+<p align="center">
+  Aplicación de escritorio en Java para gestión de inventario y control de productos
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Swing-UI-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Estado-En%20Desarrollo-blue?style=for-the-badge"/>
+</p>
 
 ---
 
-## 🚀 Descripción
+## 🚀 Vista General
 
-Este proyecto es un sistema de inventario modular diseñado para facilitar el control de productos, ventas y movimientos dentro de un negocio.
+Sistema de inventario diseñado para pequeños negocios, enfocado en **rapidez, simplicidad y escalabilidad**.
 
-Está pensado para ser escalable por fases, permitiendo agregar nuevas funcionalidades sin afectar las existentes.
+✔ Interfaz moderna estilo tarjetas
+✔ Buscador en tiempo real
+✔ CRUD completo de productos
+✔ Preparado para múltiples tiendas
 
 ---
 
-## 🧩 Características actuales
+## ✨ Características
 
 ### 📦 Inventario
 
-* Registro de productos
-* Edición de productos
-* Eliminación de productos
-* Visualización en tarjetas (estilo moderno)
-* Buscador en tiempo real
+* Agregar productos
+* Editar productos
+* Eliminar productos
+* Visualización en tarjetas
+* Control de stock
 
-### 🔍 Búsqueda
+### 🔍 Buscador inteligente
 
-* Filtrado dinámico mientras se escribe
-* Actualización automática de resultados
+* Filtrado en tiempo real
+* Respuesta inmediata
+* Experiencia fluida
 
-### ✏️ Edición
+### ⚙️ Gestión
 
-* Formulario de edición interactivo
-* Actualización directa en base de datos
-
-### ❌ Eliminación
-
-* Eliminación con confirmación
-* Menú contextual (clic derecho)
+* Base de datos local (SQLite)
+* Arquitectura modular
+* Código organizado por capas
 
 ---
 
-## 🏗️ Arquitectura
+## 🖼️ Interfaz
 
-El proyecto sigue una estructura por capas:
+<p align="center">
+  <img src="https://via.placeholder.com/800x400.png?text=Captura+del+Sistema"/>
+</p>
+
+> Reemplaza esta imagen por capturas reales del sistema
+
+---
+
+## 🏗️ Arquitectura del Proyecto
 
 ```
 com.inventario
 │
-├── modelo       → Clases (Producto, etc.)
-├── dao          → Acceso a datos (ProductoDAO)
-├── database     → Conexión a base de datos
-├── vista        → Interfaces gráficas (Swing)
+├── modelo       → Entidades
+├── dao          → Acceso a datos
+├── database     → Conexión
+├── vista        → Interfaces (Swing)
 ```
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## 🧠 Tecnologías
 
 * Java (JDK)
-* Swing (Interfaz gráfica)
-* SQLite (Base de datos local)
-* NetBeans (IDE recomendado)
+* Swing
+* SQLite
+* NetBeans
 
 ---
 
-## 💾 Base de datos
+## 📊 Estado del Proyecto
 
-* Motor: SQLite
-* Base de datos local por tienda
-* Preparado para múltiples tiendas (cambio dinámico)
-
----
-
-## 👥 Roles del sistema
-
-* 👑 Dueño → Control total del sistema
-* 🧑‍💼 Administrador → Gestión de ventas e inventario
+| Módulo      | Estado           |
+| ----------- | ---------------- |
+| Inventario  | ✅ Completo       |
+| Buscador    | ✅ Completo       |
+| Edición     | ✅ Completo       |
+| Eliminación | ✅ Completo       |
+| Ventas      | 🚧 En desarrollo |
+| Reportes    | 🚧 En desarrollo |
 
 ---
 
-## 📌 Estado del proyecto
+## 🔮 Próximas Funcionalidades
 
-✔ Inventario funcional
-✔ CRUD completo (Crear, Leer, Actualizar, Eliminar)
-✔ Buscador en tiempo real
-
-🚧 En desarrollo:
-
-* Ventas (POS)
-* Reportes
+* Sistema de ventas (POS)
+* Reportes en PDF
 * Estadísticas
-* Catálogo PDF
 * Notificaciones
+* Gestión de empleados
+* Multi-tienda
 
 ---
 
-## 📈 Futuras mejoras
+## ⚡ Instalación
 
-* Sistema de ventas completo
-* Generación de reportes en PDF
-* Estadísticas por periodo
-* Control de empleados
-* Sistema de cotizaciones
-* Notificaciones inteligentes
+```bash
 
----
-
-## ▶️ Cómo ejecutar
-
-1. Clonar el repositorio:
+https://github.com/XNasaX/Proyecto_De_Inventario
 
 ```
-git clone https://github.com/tu-usuario/tu-repo.git
-```
 
-2. Abrir en NetBeans
-
-3. Ejecutar el proyecto
-
----
-
-## 📷 Interfaz
-
-Diseño inspirado en aplicaciones modernas, con enfoque en simplicidad y usabilidad.
-
-* Color principal: Azul
-* Diseño basado en tarjetas
-* Navegación lateral
+1. Abrir en NetBeans
+2. Ejecutar el proyecto
+3. Listo 🚀
 
 ---
 
 ## 🤝 Contribución
 
-Este proyecto es colaborativo.
-Se recomienda trabajar por módulos o fases para evitar conflictos.
+Proyecto colaborativo.
+Se recomienda trabajar por módulos para evitar conflictos.
 
 ---
 
 ## 📄 Licencia
 
-Proyecto de uso educativo y desarrollo interno.
+Uso educativo / desarrollo interno
 
 ---
 
 ## 💡 Autor
 
-Desarrollado como sistema de gestión para negocio real, enfocado en eficiencia, simplicidad y escalabilidad.
+<p align="center">
+  <img src="https://avatars.githubusercontent.com/u/109637368?s=400&u=980766fe38367eaa007e8f2975c06d669a33896e&v=4" width="100"/>
+</p>
+
+<p align="center">
+  <b>NazaDR</b><br>
+  💻 Desarrollador Java<br>
+  📦 Sistema de Inventario
+</p>
+
+Sistema desarrollado para gestión real de inventario, con enfoque en crecimiento por fases.
