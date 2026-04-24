@@ -63,11 +63,7 @@ Sistema de inventario diseñado para pequeños negocios, enfocado en **rapidez, 
 
 ## 🖼️ Interfaz
 
-<p align="center">
-  <img src="https://via.placeholder.com/800x400.png?text=Captura+del+Sistema"/>
-</p>
-
-> Reemplaza esta imagen por capturas reales del sistema
+EN DESAROLLO---
 
 ---
 
